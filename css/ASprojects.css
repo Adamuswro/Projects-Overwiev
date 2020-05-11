@@ -1,0 +1,140 @@
+header {
+	background-color: #F3F3F3;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+header + .container {
+	padding-top: 85px;
+}
+
+header nav {
+  float: right;
+  margin-right: 40%;
+}
+
+header a {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #99CCCC 5%, #99CCCC 100%);
+	background-color:#99CCCC;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+header a:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+header a:active {
+	position:relative;
+	top:1px;
+}
+/*.logo{
+	height: 100px;
+  width: auto;
+}*/
+
+.logo img {
+  display: inline;
+  max-height:65px;
+  width: auto;
+  height: auto;
+  margin: 5px 0 5px 15px;
+}
+header nav li {
+	margin: auto 20px;
+  display: inline;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.project {
+	margin: 0 auto 15px auto;
+	border: 2px solid #303841;
+	padding: 5px 15px;
+	overflow: hidden;
+	max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.project a {
+	width: 75%;
+	margin: 15px auto 5px auto;
+	text-align: center;
+	border: 2px solid #0073e6;
+	display: block;
+}
+
+.project a:hover {
+	background-color: #99ccff;
+}
+
+.project-images {
+	margin: auto;
+	text-align: center;
+}
+
+.project img {
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	max-width: 500px;
+	padding: 2px;
+}
+
+.collapsible {
+	width: 100%;
+	margin: auto;
+	margin-top: 15px;
+	background-color: #99CCCC;
+	font-family: Arial;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.Tech-Patterns {
+	text-align: center;
+}
+
+.Tech-Patterns ul {
+text-align: left;
+}
+
+.Patterns {
+	vertical-align: top;
+	width: auto;
+	padding: 0;
+	margin: 0 10%;
+	display: inline-block;
+}
+
+.Technology {
+	padding: 0;
+	width: auto;
+	vertical-align: top;
+	margin: 0 10%;
+	display: inline-block;
+}
+
+.progress {
+	width: 80%;
+	margin: auto;
+text-align: center;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+

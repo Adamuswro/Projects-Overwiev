@@ -8,8 +8,8 @@
 </head>
 
 <body>
-	<div class="Title">Adam Szulc projects</div>
-	<div class="navigation">
+	<header>
+	<div>
 		<nav>
 			<ul>
 				<li><a href="/index.html">Home</a>
@@ -19,16 +19,22 @@
 			</ul>
 		</nav>
 	</div>
+	<div class="logo">
+		<img src="resources/Logo.png">
+	</div>
+</header>
 
-	<div class="projects">
+	<div class="container">
 		<button class="collapsible">End Of Line Performance Tool</button>
 		<div class="project">
-			<p class="progress">In progress</p>
+			<div class="progress">In progress
 			<div class="w3-border">
 				<div class="w3-yellow" style="height:24px;width:20%"></div>
 			</div>
-			<p class="Description"><b>Description:</b> Web application allows to visualize the results of hydraulic motors end of line tests.</p>
-			<p class="Features"><b>Features:</b> Performance chart, drain leakage chart, FPY (First Pass Yield) chart, defining own charts, selecting of part number, period of time, assembly line etc., connection few databases with test results.</p>
+		</div>
+			<p class="Description"><b>Description:</b><br/>Web application allows to visualize the results of hydraulic motors end of line tests.</p>
+			<p class="Features"><b>Features:</b><br/>Performance chart, drain leakage chart, FPY (First Pass Yield) chart, defining own charts, selecting of part number, period of time, assembly line etc., connection to few databases with test results.</p>
+			<div class="Tech-Patterns">
 			<ul class="Technology"><b>Tech stack:</b>
 				<li>.NET 4.7</li>
 				<li>MVC</li>
@@ -45,17 +51,20 @@
 				<li>Dependency Injection</li>
 				<li>Repository Pattern</li>
 			</ul>
-			<a href="https://github.com/Adamuswro/EoLPerformanceTool">LINK</a>
+		</div>
+			<a href="https://github.com/Adamuswro/EoLPerformanceTool" target="_blank">LINK</a>
 		</div>
 
 		<button class="collapsible">BOM Comparator</button>
 		<div class="project">
-			<p class="progress">In progress</p>
+			<div class="progress">In progress
 			<div class="w3-border">
 				<div class="w3-yellow" style="height:24px;width:75%"></div>
 			</div>
-			<p class="Description"><b>Description: </b>Desktop application for easy Bill Of Material analysis.</p>
-			<p class="Features"><b>Features: </b>Where used query, used with query, comparison of BOMs, show BOM, reading from excel, saving to excel, saving to own database, reading from own database.</p>
+			</div>
+			<p class="Description"><b>Description:</b><br/>Desktop application for easy BOM (Bill Of Material) analysis.</p>
+			<p class="Features"><br/><b>Features:</b><br/>Where used query, used with query, comparison of BOMs, show BOM, reading from excel, saving to excel, saving to own database, reading from own database.</p>
+			<div class="Tech-Patterns">
 			<ul class="Technology"><b>Tech stack:</b>
 				<li>.NET 4.7</li>
 				<li>WPF</li>
@@ -72,50 +81,79 @@
 				<li>Strategy</li>
 				<li>Observer</li>
 				<li>Singleton</li>
-
 			</ul>
-			<a href="https://github.com/Adamuswro/EoLPerformanceTool">LINK</a>
+			</div>
+			<a href="https://github.com/Adamuswro/BOM-comparator" target="_blank">LINK</a>
 		</div>
 
 		<button class="collapsible">Ski Jump</button>
 		<div class="project">
-			<p class="progress">Prototype Finish</p>
+			<div class="progress">Prototype Finished
 			<div class="w3-border">
 				<div class="w3-green" style="height:24px;width:100%"></div>
 			</div>
-			<p class="Description"><b>Description: </b>Ski Jumping mobile game.</p>
-			<p class="Features"><b>Features: </b>Two types of navigation implemented, wind impact, judges notes for style, hill record, different landing techniques, one hill avaliable.</p>
+		</div>
+			<div class="project-images">
+		        <img src="resources/SkiJump.jpg" />
+		        <img src="resources/SkiJump2.jpg" />
+	        </div>
+			<p class="Description"><b>Description:</b><br/>Ski Jumping mobile game.</p>
+			<p class="Features"><b>Features:</b><br/>Two types of navigation implemented, wind impact, judges notes for style, hill record, different landing techniques, one hill avaliable.</p>
+			<div class="Tech-Patterns">
 			<ul class="Technology"><b>Tech stack:</b>
 				<li>.NET</li>
 				<li>Unity</li>
 			</ul>
-			<a href="https://github.com/Adamuswro/SkiJump">LINK</a>
+			</div>
+			<a href="https://github.com/Adamuswro/SkiJump" target="_blank">LINK</a>
 		</div>
 
 		<button class="collapsible">Working Time Settlement</button>
 		<div class="project">
-			<p class="progress">Finish</p>
+			<div class="progress">Finished
 			<div class="w3-border">
 				<div class="w3-green" style="height:24px;width:100%"></div>
 			</div>
-			<p class="Description"><b>Description: </b>Console application used for settlement of hourly reports from the HR department in my current company.</p>
-			<p class="Features"><b>Features: </b>Application supports reports exported to excel files, it working properly with 3 types of reports formatting.</p>
+		</div>
+			<div class="project-images">
+	        <img src="resources/WorkingTimeSettlement1.png" />
+	        <img src="resources/WorkingTimeSettlement2.png" />
+	        </div>
+			<p class="Description"><b>Description:</b><br/>Console application used for settlement of hourly reports from the HR department in my current company.</p>
+			<p class="Features"><b>Features:</b><br/>Application supports reports exported to excel files, it working properly with 3 different types of reports formatting.</p>
+			<div class="Tech-Patterns">
 			<ul class="Technology"><b>Tech stack:</b>
 				<li>.NET 4.7</li>
-				<li>Console apllication</li>
+				<li>Console application</li>
 				<li>NPOI</li>
 				<li>NPOI.Mapper</li>
 			</ul>
 			<ul class="Patterns"><b>Used patterns:</b>
 				<li>Factory Method</li>
 			</ul>
-			<a href="https://github.com/Adamuswro/WorkingTimeSettlement">LINK</a>
 		</div>
-	</div>
+			<a href="https://github.com/Adamuswro/WorkingTimeSettlement" target="_blank">LINK</a>
+		</div>
 
 	<footer>
-		&copy; 2020 Adam Szulc (https://github.com/Adamuswro)
+		&copy; 2020 Adam Szulc (<a href="https://github.com/Adamuswro" target="_blank">GitHub</a>)
 	</footer>
-</body>
 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
 </html>
