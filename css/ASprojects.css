@@ -9,9 +9,11 @@ header + .container {
 	padding-top: 85px;
 }
 
-header nav {
-  float: right;
-  margin-right: 40%;
+.navigation-buttons{
+	float: right;
+  margin: 0 auto 0 auto;
+  display: inline;
+
 }
 
 header a {
