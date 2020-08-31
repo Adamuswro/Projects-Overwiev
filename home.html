@@ -3,7 +3,7 @@
 
 <head>
 	<title>Adam Szulc projects</title>	
-	<link rel="stylesheet" href="css/ASprojects.css">
+	<link rel="stylesheet" href="./css/ASprojects.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	
 </head>
@@ -23,7 +23,8 @@
 		<div class="logo">
 			<a href="./home.html"><img src="resources/Logo.png"></a>
 		</div>
-	</header>	
+	</header>
+
 	<div class="container">
 		<button class="collapsible">End Of Line Performance Tool</button>
 		<div class="project">
@@ -46,10 +47,12 @@
 					<li>CSS</li>
 					<li>HTML</li>
 				</ul>
-				<ul class="Patterns"><b>Used patterns:</b>
+				<ul class="Patterns"><b>Patterns and subjects covered:</b>
 					<li>MVC</li>
+					<li>Authentication</li>
 					<li>Dependency Injection</li>
 					<li>Repository Pattern</li>
+					<li>Logging</li>
 				</ul>
 			</div>
 			<a class="link" href="https://github.com/Adamuswro/EoLPerformanceTool" target="_blank">GITHUB LINK</a>
@@ -57,18 +60,18 @@
 
 		<button class="collapsible">BOM Comparator</button>
 		<div class="project">
-			<div class="progress">In progress
+			<div class="progress">Finished
 				<div class="w3-border">
-					<div class="w3-yellow" style="height:24px;width:75%"></div>
+					<div class="w3-green" style="height:24px;width:100%"></div>
 				</div>
 			</div>
 
-			<video width="500" height="auto" controls>
+			<video width="700" height="auto" controls muted>
 				<source src="resources/BOMComparatorVideo.mp4" type="video/mp4"/>
 				Video.
 			</video>
 			<p class="Description"><b>Description:</b><br/>Desktop application for easy BOM (Bill Of Material) analysis.</p>
-			<p class="Features"><br/><b>Features:</b><br/>Where used query, used with query, comparison of BOMs, show BOM, reading from excel, saving to excel, saving to own database, reading from own database.</p>
+			<p class="Features"><br/><b>Features:</b><br/>Where used query, used with query, comparison of BOMs, show BOM, find similar BOM, reading from excel, saving to own database, reading from own database.</p>
 			<div class="Tech-Patterns">
 				<ul class="Technology"><b>Tech stack:</b>
 					<li>.NET 4.7</li>
@@ -76,19 +79,23 @@
 					<li>Caliburn.Micro</li>
 					<li>Dapper</li>
 					<li>SQL Server</li>
+					<li>NPOI</li>
 					<li>Open.XML</li>
 					<li>XAML</li>
 				</ul>
-				<ul class="Patterns"><b>Used patterns:</b>
+				<ul class="Patterns"><b>Patterns and subjects covered:</b>
 					<li>MVVM</li>
+					<li>Dependency Injection</li>
 					<li>Repository</li>
 					<li>Factory Method</li>
 					<li>Strategy</li>
 					<li>Observer</li>
 					<li>Singleton</li>
+					<li>Logging</li>
+					<li>Reading from file</li>
 				</ul>
 			</div>
-			<a href="https://github.com/Adamuswro/BOM-comparator" target="_blank">GITHUB LINK</a>
+			<a class="link" href="https://github.com/Adamuswro/BOM-comparator-fakeData" target="_blank">GITHUB LINK</a>
 		</div>
 
 		<button class="collapsible">Ski Jump</button>
@@ -98,10 +105,11 @@
 					<div class="w3-green" style="height:24px;width:100%"></div>
 				</div>
 			</div>
-			<div class="project-images">
-				<img src="resources/SkiJump.jpg" />
-				<img src="resources/SkiJump2.jpg" />
-			</div>
+
+			<video width="auto" height="auto" controls muted>
+				<source src="resources/SkiJumpVideo.mp4" type="video/mp4"/>
+				Video.
+			</video>
 			<p class="Description"><b>Description:</b><br/>Ski Jumping mobile game.</p>
 			<p class="Features"><b>Features:</b><br/>Two types of navigation implemented, wind impact, judges notes for style, hill record, different landing techniques, one hill avaliable.</p>
 			<div class="Tech-Patterns">
@@ -110,8 +118,8 @@
 					<li>Unity</li>
 				</ul>
 			</div>
-			<a href="resources/SkiJumpSkoki.apk" download="">DOWNLOAD GAME (FOR ANDROID)</a>
-			<a href="https://github.com/Adamuswro/SkiJump" target="_blank">GITHUB LINK</a>
+			<a class="link" href="resources/SkiJumpSkoki.apk" download="">DOWNLOAD GAME (FOR ANDROID)</a>
+			<a class="link" href="https://github.com/Adamuswro/SkiJump" target="_blank">GITHUB LINK</a>
 		</div>
 
 		<button class="collapsible">Working Time Settlement</button>
@@ -122,12 +130,15 @@
 				</div>
 			</div>
 			<div class="project-images">
-			<a href="resources/WorkingTimeSettlement1.png" target="_blank">
-				<img src="resources/WorkingTimeSettlement1.png" />
-			</a>
-				<img src="resources/WorkingTimeSettlement2.png" />
+				<a href="resources/WorkingTimeSettlement1.png" target="_blank">
+					<img src="resources/WorkingTimeSettlement1.png" />
+				</a >
+				<a href="resources/WorkingTimeSettlement2.png" target="_blank">
+					<img src="resources/WorkingTimeSettlement2.png" />
+				</a >
 			</div>
-			<p class="Description"><b>Description:</b><br/>Console application used for settlement of hourly reports from the HR department in my current company.</p>
+			
+			<p class="Description"><b>Description:</b><br/>Console application created for settlement of hourly reports from the HR department in my current company.</p>
 			<p class="Features"><b>Features:</b><br/>Application supports reports exported to excel files, it working properly with 3 different types of reports formatting.</p>
 			<div class="Tech-Patterns">
 				<ul class="Technology"><b>Tech stack:</b>
@@ -136,15 +147,16 @@
 					<li>NPOI</li>
 					<li>NPOI.Mapper</li>
 				</ul>
-				<ul class="Patterns"><b>Used patterns:</b>
+				<ul class="Patterns"><b>Patterns and subjects covered::</b>
 					<li>Factory Method</li>
+					<li>Reading from file</li>
 				</ul>
 			</div>
-			<a href="https://github.com/Adamuswro/WorkingTimeSettlement" target="_blank">GITHUB LINK</a>
+			<a class="link" href="https://github.com/Adamuswro/WorkingTimeSettlement-fakeData" target="_blank">GITHUB LINK</a>
 		</div>
-
+	</div>
 		<footer>
-			&copy; 2020 Adam Szulc (<a href="https://github.com/Adamuswro" target="_blank">GITHUB</a>)
+			&copy; 2020 <a href="mailto:adamszulc1991@gmail.com">Adam Szulc</a> (<a href="https://github.com/Adamuswro" target="_blank">GITHUB</a>)
 		</footer>
 
 		<script type="text/javascript" src="js/index.js"></script> 
